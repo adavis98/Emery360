@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		418C44F51AF49EEC00A398AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C44F41AF49EEC00A398AD /* main.m */; };
+		418C44F81AF49EEC00A398AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C44F71AF49EEC00A398AD /* AppDelegate.m */; };
+		418C44FB1AF49EEC00A398AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C44FA1AF49EEC00A398AD /* ViewController.m */; };
+		418C44FE1AF49EEC00A398AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418C44FC1AF49EEC00A398AD /* Main.storyboard */; };
+		418C45001AF49EEC00A398AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418C44FF1AF49EEC00A398AD /* Images.xcassets */; };
+		418C45031AF49EEC00A398AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 418C45011AF49EEC00A398AD /* LaunchScreen.xib */; };
+		418C450F1AF49EEC00A398AD /* Emery360Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C450E1AF49EEC00A398AD /* Emery360Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		418C45091AF49EEC00A398AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418C44E71AF49EEC00A398AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418C44EE1AF49EEC00A398AD;
+			remoteInfo = Emery360;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		418C44EF1AF49EEC00A398AD /* Emery360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emery360.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		418C44F31AF49EEC00A398AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418C44F41AF49EEC00A398AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		418C44F61AF49EEC00A398AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		418C44F71AF49EEC00A398AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		418C44F91AF49EEC00A398AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		418C44FA1AF49EEC00A398AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		418C44FD1AF49EEC00A398AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		418C44FF1AF49EEC00A398AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		418C45021AF49EEC00A398AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		418C45081AF49EEC00A398AD /* Emery360Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Emery360Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		418C450D1AF49EEC00A398AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418C450E1AF49EEC00A398AD /* Emery360Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Emery360Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		418C44EC1AF49EEC00A398AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418C45051AF49EEC00A398AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		418C44E61AF49EEC00A398AD = {
+			isa = PBXGroup;
+			children = (
+				418C44F11AF49EEC00A398AD /* Emery360 */,
+				418C450B1AF49EEC00A398AD /* Emery360Tests */,
+				418C44F01AF49EEC00A398AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		418C44F01AF49EEC00A398AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				418C44EF1AF49EEC00A398AD /* Emery360.app */,
+				418C45081AF49EEC00A398AD /* Emery360Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		418C44F11AF49EEC00A398AD /* Emery360 */ = {
+			isa = PBXGroup;
+			children = (
+				418C44F61AF49EEC00A398AD /* AppDelegate.h */,
+				418C44F71AF49EEC00A398AD /* AppDelegate.m */,
+				418C44F91AF49EEC00A398AD /* ViewController.h */,
+				418C44FA1AF49EEC00A398AD /* ViewController.m */,
+				418C44FC1AF49EEC00A398AD /* Main.storyboard */,
+				418C44FF1AF49EEC00A398AD /* Images.xcassets */,
+				418C45011AF49EEC00A398AD /* LaunchScreen.xib */,
+				418C44F21AF49EEC00A398AD /* Supporting Files */,
+			);
+			path = Emery360;
+			sourceTree = "<group>";
+		};
+		418C44F21AF49EEC00A398AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				418C44F31AF49EEC00A398AD /* Info.plist */,
+				418C44F41AF49EEC00A398AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		418C450B1AF49EEC00A398AD /* Emery360Tests */ = {
+			isa = PBXGroup;
+			children = (
+				418C450E1AF49EEC00A398AD /* Emery360Tests.m */,
+				418C450C1AF49EEC00A398AD /* Supporting Files */,
+			);
+			path = Emery360Tests;
+			sourceTree = "<group>";
+		};
+		418C450C1AF49EEC00A398AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				418C450D1AF49EEC00A398AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		418C44EE1AF49EEC00A398AD /* Emery360 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418C45121AF49EEC00A398AD /* Build configuration list for PBXNativeTarget "Emery360" */;
+			buildPhases = (
+				418C44EB1AF49EEC00A398AD /* Sources */,
+				418C44EC1AF49EEC00A398AD /* Frameworks */,
+				418C44ED1AF49EEC00A398AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emery360;
+			productName = Emery360;
+			productReference = 418C44EF1AF49EEC00A398AD /* Emery360.app */;
+			productType = "com.apple.product-type.application";
+		};
+		418C45071AF49EEC00A398AD /* Emery360Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418C45151AF49EEC00A398AD /* Build configuration list for PBXNativeTarget "Emery360Tests" */;
+			buildPhases = (
+				418C45041AF49EEC00A398AD /* Sources */,
+				418C45051AF49EEC00A398AD /* Frameworks */,
+				418C45061AF49EEC00A398AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418C450A1AF49EEC00A398AD /* PBXTargetDependency */,
+			);
+			name = Emery360Tests;
+			productName = Emery360Tests;
+			productReference = 418C45081AF49EEC00A398AD /* Emery360Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		418C44E71AF49EEC00A398AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Adam Davis";
+				TargetAttributes = {
+					418C44EE1AF49EEC00A398AD = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					418C45071AF49EEC00A398AD = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 418C44EE1AF49EEC00A398AD;
+					};
+				};
+			};
+			buildConfigurationList = 418C44EA1AF49EEC00A398AD /* Build configuration list for PBXProject "Emery360" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 418C44E61AF49EEC00A398AD;
+			productRefGroup = 418C44F01AF49EEC00A398AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				418C44EE1AF49EEC00A398AD /* Emery360 */,
+				418C45071AF49EEC00A398AD /* Emery360Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		418C44ED1AF49EEC00A398AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C44FE1AF49EEC00A398AD /* Main.storyboard in Resources */,
+				418C45031AF49EEC00A398AD /* LaunchScreen.xib in Resources */,
+				418C45001AF49EEC00A398AD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418C45061AF49EEC00A398AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		418C44EB1AF49EEC00A398AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C44FB1AF49EEC00A398AD /* ViewController.m in Sources */,
+				418C44F81AF49EEC00A398AD /* AppDelegate.m in Sources */,
+				418C44F51AF49EEC00A398AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418C45041AF49EEC00A398AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C450F1AF49EEC00A398AD /* Emery360Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		418C450A1AF49EEC00A398AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418C44EE1AF49EEC00A398AD /* Emery360 */;
+			targetProxy = 418C45091AF49EEC00A398AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		418C44FC1AF49EEC00A398AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418C44FD1AF49EEC00A398AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		418C45011AF49EEC00A398AD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418C45021AF49EEC00A398AD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		418C45101AF49EEC00A398AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		418C45111AF49EEC00A398AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		418C45131AF49EEC00A398AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Emery360/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		418C45141AF49EEC00A398AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Emery360/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		418C45161AF49EEC00A398AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Emery360Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emery360.app/Emery360";
+			};
+			name = Debug;
+		};
+		418C45171AF49EEC00A398AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Emery360Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emery360.app/Emery360";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		418C44EA1AF49EEC00A398AD /* Build configuration list for PBXProject "Emery360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418C45101AF49EEC00A398AD /* Debug */,
+				418C45111AF49EEC00A398AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418C45121AF49EEC00A398AD /* Build configuration list for PBXNativeTarget "Emery360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418C45131AF49EEC00A398AD /* Debug */,
+				418C45141AF49EEC00A398AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		418C45151AF49EEC00A398AD /* Build configuration list for PBXNativeTarget "Emery360Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418C45161AF49EEC00A398AD /* Debug */,
+				418C45171AF49EEC00A398AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 418C44E71AF49EEC00A398AD /* Project object */;
+}

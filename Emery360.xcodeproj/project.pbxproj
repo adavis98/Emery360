@@ -14,6 +14,14 @@
 		418C45001AF49EEC00A398AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418C44FF1AF49EEC00A398AD /* Images.xcassets */; };
 		418C45031AF49EEC00A398AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 418C45011AF49EEC00A398AD /* LaunchScreen.xib */; };
 		418C450F1AF49EEC00A398AD /* Emery360Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C450E1AF49EEC00A398AD /* Emery360Tests.m */; };
+		418C45231AF49EF400A398AD /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C45221AF49EF400A398AD /* InterfaceController.m */; };
+		418C45261AF49EF400A398AD /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C45251AF49EF400A398AD /* NotificationController.m */; };
+		418C45281AF49EF400A398AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418C45271AF49EF400A398AD /* Images.xcassets */; };
+		418C452C1AF49EF500A398AD /* Emery360 WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 418C452B1AF49EF500A398AD /* Emery360 WatchKit App.app */; };
+		418C45341AF49EF500A398AD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418C45321AF49EF500A398AD /* Interface.storyboard */; };
+		418C45361AF49EF500A398AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418C45351AF49EF500A398AD /* Images.xcassets */; };
+		418C45391AF49EF500A398AD /* Emery360 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 418C451C1AF49EF400A398AD /* Emery360 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4192E7BF1AF6FB280080423E /* SpecialSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4192E7BE1AF6FB280080423E /* SpecialSchedule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,9 +32,39 @@
 			remoteGlobalIDString = 418C44EE1AF49EEC00A398AD;
 			remoteInfo = Emery360;
 		};
+		418C452D1AF49EF500A398AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418C44E71AF49EEC00A398AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418C452A1AF49EF500A398AD;
+			remoteInfo = "Emery360 WatchKit App";
+		};
+		418C45371AF49EF500A398AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418C44E71AF49EEC00A398AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418C451B1AF49EF400A398AD;
+			remoteInfo = "Emery360 WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		418C45401AF49EF500A398AD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				418C45391AF49EF500A398AD /* Emery360 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		413E842B1AF4AB5100D42203 /* Emery360 WatchKit Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Emery360 WatchKit Extension-Bridging-Header.h"; sourceTree = "<group>"; };
+		413E842E1AF4AC3200D42203 /* Emery360-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Emery360-Bridging-Header.h"; sourceTree = "<group>"; };
 		418C44EF1AF49EEC00A398AD /* Emery360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emery360.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		418C44F31AF49EEC00A398AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		418C44F41AF49EEC00A398AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +78,20 @@
 		418C45081AF49EEC00A398AD /* Emery360Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Emery360Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		418C450D1AF49EEC00A398AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		418C450E1AF49EEC00A398AD /* Emery360Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Emery360Tests.m; sourceTree = "<group>"; };
+		418C451C1AF49EF400A398AD /* Emery360 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Emery360 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		418C451F1AF49EF400A398AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418C45201AF49EF400A398AD /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		418C45211AF49EF400A398AD /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		418C45221AF49EF400A398AD /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		418C45241AF49EF400A398AD /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		418C45251AF49EF400A398AD /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		418C45271AF49EF400A398AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		418C452B1AF49EF500A398AD /* Emery360 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emery360 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		418C45311AF49EF500A398AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418C45331AF49EF500A398AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		418C45351AF49EF500A398AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4192E7BD1AF6FB280080423E /* SpecialSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialSchedule.h; sourceTree = "<group>"; };
+		4192E7BE1AF6FB280080423E /* SpecialSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialSchedule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +109,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		418C45191AF49EF400A398AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +124,8 @@
 			children = (
 				418C44F11AF49EEC00A398AD /* Emery360 */,
 				418C450B1AF49EEC00A398AD /* Emery360Tests */,
+				418C451D1AF49EF400A398AD /* Emery360 WatchKit Extension */,
+				418C452F1AF49EF500A398AD /* Emery360 WatchKit App */,
 				418C44F01AF49EEC00A398AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +135,8 @@
 			children = (
 				418C44EF1AF49EEC00A398AD /* Emery360.app */,
 				418C45081AF49EEC00A398AD /* Emery360Tests.xctest */,
+				418C451C1AF49EF400A398AD /* Emery360 WatchKit Extension.appex */,
+				418C452B1AF49EF500A398AD /* Emery360 WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +152,7 @@
 				418C44FF1AF49EEC00A398AD /* Images.xcassets */,
 				418C45011AF49EEC00A398AD /* LaunchScreen.xib */,
 				418C44F21AF49EEC00A398AD /* Supporting Files */,
+				413E842E1AF4AC3200D42203 /* Emery360-Bridging-Header.h */,
 			);
 			path = Emery360;
 			sourceTree = "<group>";
@@ -119,6 +183,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		418C451D1AF49EF400A398AD /* Emery360 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				418C45211AF49EF400A398AD /* InterfaceController.h */,
+				418C45221AF49EF400A398AD /* InterfaceController.m */,
+				4192E7BD1AF6FB280080423E /* SpecialSchedule.h */,
+				4192E7BE1AF6FB280080423E /* SpecialSchedule.m */,
+				418C45241AF49EF400A398AD /* NotificationController.h */,
+				418C45251AF49EF400A398AD /* NotificationController.m */,
+				418C45271AF49EF400A398AD /* Images.xcassets */,
+				418C451E1AF49EF400A398AD /* Supporting Files */,
+				413E842B1AF4AB5100D42203 /* Emery360 WatchKit Extension-Bridging-Header.h */,
+			);
+			path = "Emery360 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		418C451E1AF49EF400A398AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				418C451F1AF49EF400A398AD /* Info.plist */,
+				418C45201AF49EF400A398AD /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		418C452F1AF49EF500A398AD /* Emery360 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				418C45321AF49EF500A398AD /* Interface.storyboard */,
+				418C45351AF49EF500A398AD /* Images.xcassets */,
+				418C45301AF49EF500A398AD /* Supporting Files */,
+			);
+			path = "Emery360 WatchKit App";
+			sourceTree = "<group>";
+		};
+		418C45301AF49EF500A398AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				418C45311AF49EF500A398AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +236,12 @@
 				418C44EB1AF49EEC00A398AD /* Sources */,
 				418C44EC1AF49EEC00A398AD /* Frameworks */,
 				418C44ED1AF49EEC00A398AD /* Resources */,
+				418C45401AF49EF500A398AD /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				418C45381AF49EF500A398AD /* PBXTargetDependency */,
 			);
 			name = Emery360;
 			productName = Emery360;
@@ -157,6 +266,39 @@
 			productReference = 418C45081AF49EEC00A398AD /* Emery360Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		418C451B1AF49EF400A398AD /* Emery360 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418C453D1AF49EF500A398AD /* Build configuration list for PBXNativeTarget "Emery360 WatchKit Extension" */;
+			buildPhases = (
+				418C45181AF49EF400A398AD /* Sources */,
+				418C45191AF49EF400A398AD /* Frameworks */,
+				418C451A1AF49EF400A398AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418C452E1AF49EF500A398AD /* PBXTargetDependency */,
+			);
+			name = "Emery360 WatchKit Extension";
+			productName = "Emery360 WatchKit Extension";
+			productReference = 418C451C1AF49EF400A398AD /* Emery360 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		418C452A1AF49EF500A398AD /* Emery360 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418C453A1AF49EF500A398AD /* Build configuration list for PBXNativeTarget "Emery360 WatchKit App" */;
+			buildPhases = (
+				418C45291AF49EF500A398AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emery360 WatchKit App";
+			productName = "Emery360 WatchKit App";
+			productReference = 418C452B1AF49EF500A398AD /* Emery360 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +314,12 @@
 					418C45071AF49EEC00A398AD = {
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = 418C44EE1AF49EEC00A398AD;
+					};
+					418C451B1AF49EF400A398AD = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					418C452A1AF49EF500A398AD = {
+						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
 			};
@@ -190,6 +338,8 @@
 			targets = (
 				418C44EE1AF49EEC00A398AD /* Emery360 */,
 				418C45071AF49EEC00A398AD /* Emery360Tests */,
+				418C451B1AF49EF400A398AD /* Emery360 WatchKit Extension */,
+				418C452A1AF49EF500A398AD /* Emery360 WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -209,6 +359,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418C451A1AF49EF400A398AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C45281AF49EF400A398AD /* Images.xcassets in Resources */,
+				418C452C1AF49EF500A398AD /* Emery360 WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418C45291AF49EF500A398AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C45341AF49EF500A398AD /* Interface.storyboard in Resources */,
+				418C45361AF49EF500A398AD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +401,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		418C45181AF49EF400A398AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C45261AF49EF400A398AD /* NotificationController.m in Sources */,
+				418C45231AF49EF400A398AD /* InterfaceController.m in Sources */,
+				4192E7BF1AF6FB280080423E /* SpecialSchedule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +418,16 @@
 			isa = PBXTargetDependency;
 			target = 418C44EE1AF49EEC00A398AD /* Emery360 */;
 			targetProxy = 418C45091AF49EEC00A398AD /* PBXContainerItemProxy */;
+		};
+		418C452E1AF49EF500A398AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418C452A1AF49EF500A398AD /* Emery360 WatchKit App */;
+			targetProxy = 418C452D1AF49EF500A398AD /* PBXContainerItemProxy */;
+		};
+		418C45381AF49EF500A398AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418C451B1AF49EF400A398AD /* Emery360 WatchKit Extension */;
+			targetProxy = 418C45371AF49EF500A398AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -258,6 +446,14 @@
 				418C45021AF49EEC00A398AD /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		418C45321AF49EF500A398AD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418C45331AF49EF500A398AD /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -349,9 +545,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Emery360/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Emery360/Emery360-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -359,9 +558,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Emery360/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Emery360/Emery360-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -399,6 +600,67 @@
 			};
 			name = Release;
 		};
+		418C453B1AF49EF500A398AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Emery360_WatchKit_Extension;
+				INFOPLIST_FILE = "Emery360 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		418C453C1AF49EF500A398AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Emery360_WatchKit_Extension;
+				INFOPLIST_FILE = "Emery360 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		418C453E1AF49EF500A398AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Emery360 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Emery360 WatchKit Extension/Emery360 WatchKit Extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		418C453F1AF49EF500A398AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Emery360 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Emery360 WatchKit Extension/Emery360 WatchKit Extension-Bridging-Header.h";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,6 +680,7 @@
 				418C45141AF49EEC00A398AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		418C45151AF49EEC00A398AD /* Build configuration list for PBXNativeTarget "Emery360Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +689,25 @@
 				418C45171AF49EEC00A398AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418C453A1AF49EF500A398AD /* Build configuration list for PBXNativeTarget "Emery360 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418C453B1AF49EF500A398AD /* Debug */,
+				418C453C1AF49EF500A398AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418C453D1AF49EF500A398AD /* Build configuration list for PBXNativeTarget "Emery360 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418C453E1AF49EF500A398AD /* Debug */,
+				418C453F1AF49EF500A398AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

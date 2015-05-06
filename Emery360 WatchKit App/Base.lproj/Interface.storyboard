@@ -38,7 +38,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-230" y="234"/>
+            <point key="canvasLocation" x="-2398" y="-734"/>
         </scene>
         <!--Special-->
         <scene sceneID="GbG-an-DQT">
@@ -102,10 +102,10 @@
             </objects>
             <point key="canvasLocation" x="138" y="536"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Extras-->
         <scene sceneID="yzE-NW-gdO">
             <objects>
-                <controller id="kek-AO-hn8">
+                <controller title="Extras" id="kek-AO-hn8">
                     <items>
                         <group width="1" alignment="left" id="biD-yW-2oo">
                             <items>
@@ -262,14 +262,14 @@
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="-54" y="932"/>
+            <point key="canvasLocation" x="-318" y="1972"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
                 <controller id="4sK-HA-Art" customClass="NotificationController"/>
             </objects>
-            <point key="canvasLocation" x="194" y="932"/>
+            <point key="canvasLocation" x="242" y="1916"/>
         </scene>
         <!--Two-->
         <scene sceneID="LdL-Hk-GnR">
